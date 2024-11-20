@@ -1,3 +1,5 @@
 function play() {
-    console.log("Game Start")
+    hideScreenById('home-screen');
+    hideScreenById('final-score');
+    showScreenById('play-ground');
 }
